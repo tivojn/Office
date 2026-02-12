@@ -1,2 +1,23 @@
+# macOS
 .DS_Store
+
+# Playwright
 .playwright-mcp/
+
+# Claude local settings
+.claude/
+
+# Generated output (examples, previews, exports)
+*.pdf
+*.xlsx
+*.xlsm
+*.docx
+*.pptx
+*.png
+*.jpg
+*.jpeg
+
+# Python
+*.py
+__pycache__/
+*.pyc
