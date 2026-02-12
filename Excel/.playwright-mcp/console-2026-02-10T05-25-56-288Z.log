@@ -1,0 +1,6 @@
+[    1570ms] [ERROR] Not signed in with the identity provider. @ https://x.com/i/flow/login?redirect_after_login=%2Fi%2Fgrok:0
+[    1570ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason @ https://accounts.google.com/gsi/client:81
+[    1570ms] [ERROR] Not signed in with the identity provider. @ https://x.com/i/flow/login?redirect_after_login=%2Fi%2Fgrok:0
+[   14925ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:81
+[   19184ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.postMessage call. @ https://accounts.google.com/gsi/client:347
+[   19184ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.postMessage call. @ https://accounts.google.com/gsi/client:347
