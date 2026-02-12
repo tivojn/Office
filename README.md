@@ -36,9 +36,9 @@ Custom styles are also supported — the agent will design a bespoke palette if 
 npx skills add tivojn/Office -a claude-code
 
 # Or install individually
-npx skills add tivojn/Office --skill Excel -a claude-code
-npx skills add tivojn/Office --skill PowerPoint -a claude-code
-npx skills add tivojn/Office --skill Word -a claude-code
+npx skills add tivojn/Office --skill xlsx-design-agent -a claude-code
+npx skills add tivojn/Office --skill pptx-design-agent -a claude-code
+npx skills add tivojn/Office --skill docx-design-agent -a claude-code
 ```
 
 ### Manual Install
