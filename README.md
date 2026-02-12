@@ -29,6 +29,20 @@ Custom styles are also supported — the agent will design a bespoke palette if 
 
 ## Installation
 
+### Quick Install (npx)
+
+```bash
+# Install all 3 skills at once
+npx skills add tivojn/Office -a claude-code
+
+# Or install individually
+npx skills add tivojn/Office --skill Excel -a claude-code
+npx skills add tivojn/Office --skill PowerPoint -a claude-code
+npx skills add tivojn/Office --skill Word -a claude-code
+```
+
+### Manual Install
+
 Copy any skill folder into `~/.claude/skills/`:
 
 ```bash
