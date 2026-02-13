@@ -60,7 +60,7 @@ Define a complete palette before building any deck.
 
 ## Layout Rules
 
-- Slide dimensions: **12192000 x 6858000 EMU** (10" x 7.5")
+- Slide dimensions: **12192000 x 6858000 EMU** (13.333" x 7.5") — **16:9 widescreen** (default)
 - Minimum margin from edge: **457200 EMU** (0.5 inch)
 - Gap between cards/panels: **150000-250000 EMU**
 - Every shape MUST have explicit left, top, width, height.
@@ -114,8 +114,12 @@ Full AI image generation capability is a core design tool.
 3. Save to known path — alongside .pptx or in `./images/`. Descriptive filenames: `slide1_hero_bg.png`, `maui_sunset_wide.png`.
 4. Insert into slide via `slide.shapes.add_picture()` with precise positioning.
 
+### Image Aspect Ratio Default
+
+**All slide background images MUST be generated at 16:9 aspect ratio** to match the default slide dimensions (13.333" x 7.5"). This applies to hero backgrounds, section backgrounds, texture backgrounds, and any full-bleed or near-full-bleed images. Only use different aspect ratios for non-background content images (e.g., square cards, side panel illustrations).
+
 ### Image Prompt Best Practices
-- **Always specify aspect ratio**: "wide 16:9" for backgrounds, "square 1:1" for cards, "tall 2:3" for side panels.
+- **Always specify aspect ratio**: "wide 16:9" for backgrounds (mandatory), "square 1:1" for cards, "tall 2:3" for side panels.
 - **Always specify style**: "photorealistic", "watercolor illustration", "minimal flat design", "cinematic photography", etc.
 - **Always match the deck palette**: Reference exact hex colors.
 - **Always specify composition**: "centered subject with negative space on the right for text overlay", etc.

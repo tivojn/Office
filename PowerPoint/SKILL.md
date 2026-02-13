@@ -82,10 +82,13 @@ After style is confirmed:
 ```
 Would you like AI-generated background images for each slide?
 
-  • Yes — I'll generate HD photorealistic 16:9 images tailored to each slide's
-    content, with clean zones reserved for text overlay.
+  • Yes — I'll generate HD photorealistic 16:9 images (matching the default
+    slide aspect ratio) tailored to each slide's content, with clean zones
+    reserved for text overlay.
   • No — I'll use solid color / gradient backgrounds from the style palette.
 ```
+
+**Default aspect ratio: All presentations use 16:9 widescreen (13.333" x 7.5"). All generated background images MUST match this 16:9 ratio.**
 
 **Wait for user response. Do not assume.**
 
